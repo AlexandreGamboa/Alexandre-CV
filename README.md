@@ -14,3 +14,6 @@ um projeto que fiz, para testar minhas competencias e também uma forma de divul
 
 ## ⚠️Aviso
 O site foi programado para computador sem responsividade pois foi apenas para teste
+
+### 🧑‍💻Acessar Site: 
+- [Alexandre CV](https://alexandregamboa.github.io/Alexandre-CV/)
