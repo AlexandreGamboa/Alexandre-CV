@@ -142,6 +142,10 @@ p {
   line-height: 1.5em;
 }
 
+#text {
+  width: 38em;
+}
+
 b {
   font-size: 1.3em;
 }
@@ -448,20 +452,23 @@ ul {
   .cabecalho {
     padding: 0px 10px;
     flex-direction: column;
-    align-items: flex-start;
   }
 
   .cabecalho > div:first-child {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
 
   #pagina1 {
-    padding-top: 125px;
+    padding-top: 115px;
   }
 
   .aba {
     font-size: 1em;
-    margin: 0.5em;
+    margin: 0.6em;
+  }
+
+  .aba:hover {
+    font-size: 1.4em;
   }
 
   .box {
@@ -497,6 +504,10 @@ ul {
   p {
     font-size: 0.9em;
     line-height: 1.4em;
+  }
+
+  #text {
+    width: 100%;
   }
 
   .botao {
