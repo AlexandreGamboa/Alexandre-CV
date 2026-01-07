@@ -441,3 +441,182 @@ ul {
 .example-2 .icon-content a[data-social="youtube"] ~ .tooltip {
   background-color: #ff0000;
 }
+
+/* Media para responsividade */
+
+@media (max-width: 768px) {
+  .cabecalho {
+    padding: 0px 10px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cabecalho > div:first-child {
+    margin-bottom: 10px;
+  }
+
+  .aba {
+    font-size: 1em;
+    margin: 0.5em;
+  }
+
+  .box {
+    margin-left: 0;
+    flex-direction: column;
+    gap: 2em;
+    height: auto;
+    padding: 1em;
+    text-align: center;
+  }
+
+  .text-section {
+    order: 2;
+  }
+
+  .image-section2 {
+    order: 1;
+  }
+
+  h1 {
+    font-size: 2em;
+    margin-top: 1em;
+  }
+
+  .cor {
+    font-size: 1.2em;
+  }
+
+  #antes {
+    font-size: 1.2em;
+  }
+
+  p {
+    font-size: 0.9em;
+    line-height: 1.4em;
+  }
+
+  .botao {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button, .button2 {
+    margin: 0.5em 0;
+  }
+
+  .social-icon {
+    margin-left: 0.5em;
+  }
+
+  .profile-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .image-section {
+    width: 220px;
+    height: 220px;
+  }
+
+  .image-circle {
+    width: 240px;
+    height: 240px;
+  }
+
+  .image-section2 {
+    width: 260px;
+    height: 260px;
+  }
+
+  .title {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  h2 {
+    font-size: 1.8em;
+  }
+
+  .tecnologias {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .caixa {
+    width: 90%;
+    max-width: 400px;
+  }
+
+  .sobre-texto {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .texto {
+    width: 90%;
+    max-width: 600px;
+  }
+
+  .sobre-texto img {
+    width: 90%;
+    max-width: 300px;
+  }
+
+  .example-2 {
+    justify-content: center;
+  }
+
+  .icon-content {
+    margin: 0 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  .cor {
+    font-size: 1em;
+  }
+
+  #antes {
+    font-size: 1em;
+  }
+
+  p {
+    font-size: 0.8em;
+  }
+
+  .profile-img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .image-section {
+    width: 170px;
+    height: 170px;
+  }
+
+  .image-circle {
+    width: 190px;
+    height: 190px;
+  }
+
+  .image-section2 {
+    width: 210px;
+    height: 210px;
+  }
+
+  .caixa {
+    width: 95%;
+  }
+
+  .texto {
+    width: 95%;
+  }
+
+  .sobre-texto img {
+    width: 95%;
+  }
+}
